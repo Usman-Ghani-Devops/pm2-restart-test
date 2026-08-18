@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
         "Content-Type": "text/plain"
     });
 
-    res.end("Node.js application is running!");
+    res.end("Node.js application is running on the ec2!");
 });
 
 server.listen(PORT, () => {

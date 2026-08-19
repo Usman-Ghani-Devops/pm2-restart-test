@@ -1,7 +1,8 @@
-version: 0.0
+version: 0.1
 
-os: linux
-
-files:
-  - source: /
-    destination: /home/ubuntu/pm2-restart-test
+deploy:
+  steps:
+    - name: Test deployment
+      action:
+        type: Command
+        command: ./deploy.sh

@@ -1,8 +1,5 @@
 version: 0.1
 
-deploy:
-  steps:
-    - name: Test deployment
-      action:
-        type: Command
-        command: ./deploy.sh
+os: linux
+
+script: deploy.sh

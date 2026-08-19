@@ -1,0 +1,8 @@
+version: 1.0
+
+deploy:
+  steps:
+    - name: Test deployment
+      action:
+        type: Command
+        command: echo "CodePipeline EC2 deployment is working"
